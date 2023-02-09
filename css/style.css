@@ -1,0 +1,91 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+
+body{
+	font-family:OCR A Std, monospace;
+	background-image: url(../img/ceu.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center center;
+}
+
+
+#corpo{
+	width:80%;
+	height:1980px;
+	margin:0 auto;
+	background-color:D8BFcb;
+}
+
+#superio{
+	width:100%;
+	padding-top:20px;
+	height:80px;
+	background:PaleTurquoise;
+	text-align:center;
+	
+}
+
+#menu{
+	width:100%;
+	background-color:GreenYellow;
+}
+
+
+#lista{
+	
+	width:200px;
+	height:400px;
+	float:left;
+}
+
+ul{
+	list-style-type:none;
+}
+
+li a{
+	text-decoration:none;
+}
+
+a{
+	border:solid 1px red;
+	background:purple;
+	padding:10px;
+	margin: 2px;
+	display:block;
+	color:white;
+}
+
+a:hover{
+	background:Plum;
+	color:purple;
+}
+
+
+
+
+#secao{
+	border:2px solid yellow;
+	width:870px;
+	height:400px;
+	float:right;
+
+}
+
+.paragrafo{
+	
+	width:250px;
+}
+
+
+
+
+#{
+	clear:both;
+	width:850px;
+	height:70px;
+}
